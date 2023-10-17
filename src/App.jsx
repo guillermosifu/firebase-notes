@@ -76,7 +76,7 @@ function App() {
   return (
     <div className="notesContainer">
       <div className="notesHeader">
-        <h1>React and Firebase Notes App-Codigo</h1>
+        <h1>Gestor de Tareas-Codigo</h1>
       </div>
 
       <div className="notesBody">
