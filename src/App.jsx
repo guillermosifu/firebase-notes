@@ -24,7 +24,7 @@ function App() {
 
   // Inicia la conexión con la base de datos
   const app = initializeApp(DB_CONFIG);
-  const db = getFireStore(app);
+  const db = getDatabase(app);
   // Crea un ref de las notas
   const notesRef = ref(db, "notes");
 
