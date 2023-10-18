@@ -1,9 +1,18 @@
-// Configuración de la base de datos
+
+
 export const DB_CONFIG = {
-	apiKey: "AIzaSyCKEvUfM4eFXzRePpaMjbPVQGVWnk8z9Ac",
-	authDomain: "reactnotes-a205e.firebaseapp.com",
-	databaseURL: "https://reactnotes-a205e.firebaseio.com",
-	projectId: "reactnotes-a205e",
-	storageBucket: "",
-	messagingSenderId: "904756603733"
-};
+	apiKey: "AIzaSyAGn2mUK9drqQcIDfNDJiS3u8BPtrb63_8",
+	authDomain: "db-notes-19230.firebaseapp.com",
+	projectId: "db-notes-19230",
+	storageBucket: "db-notes-19230.appspot.com",
+	messagingSenderId: "838328516127",
+	appId: "1:838328516127:web:de99675134075a35ef5f2a",
+	measurementId: "G-238DKM8L0W"
+	};
+
+
+
+
+
+
+

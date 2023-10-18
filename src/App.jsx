@@ -24,7 +24,7 @@ function App() {
 
   // Inicia la conexión con la base de datos
   const app = initializeApp(DB_CONFIG);
-  const db = getDatabase(app);
+  const db = getFireStore(app);
   // Crea un ref de las notas
   const notesRef = ref(db, "notes");
 
@@ -78,7 +78,7 @@ function App() {
       <div className="notesHeader">
         <h1>Gestor de Tareas-Codigo</h1>
       </div>
-
+  
       <div className="notesBody">
         {/* Recorre las notas */}
         {notes &&
